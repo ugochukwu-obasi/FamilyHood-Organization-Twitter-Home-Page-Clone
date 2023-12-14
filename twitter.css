@@ -1,0 +1,371 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+.main-container section{
+    background-color: white;
+    border: 5px solid white;
+}
+
+header {
+    position: fixed;
+    height: 40px;
+    background-color: aliceblue;
+    width: 100%;
+    top: 0;
+}
+
+.posts {
+    position: absolute;
+    width: 50%;
+    right: 25%;
+}
+
+.trend {
+    position: absolute;
+    width: 25%;
+    right: 0;
+}
+.aside{
+    background-color: white;
+    height: 100vh;
+    width: 25%;
+    position: fixed;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+
+}
+
+.aside-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    list-style: none;
+    width: 200px;
+    
+}
+
+.aside-list li a{
+    text-align: left;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    gap: 10rem;
+    flex-direction: column;
+}
+
+.btn-post{
+    padding: 10px;
+    border: none;
+    color: aliceblue;
+    background-color: dodgerblue;
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+.search{
+    border: 1px solid rgb(210, 221, 233); 
+    width: 20%; 
+    height: 20px; 
+    padding: 12px; 
+    margin: 15px;
+    font-size: 15px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 5px; 
+    border-radius: 20px; 
+    background-color: rgb(210, 221, 233);
+}
+
+.awo-span{
+    text-overflow: unset;
+}
+
+.email{
+    color: aqua;
+}
+
+.family-hood-div{
+    margin-top: 50px;
+}
+
+.family-hood-drop{
+    margin-top: 20px;
+}
+
+.post-border-div{
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: grey;
+}
+
+.post-border-drop{
+    display: flex;
+    flex-direction: row;
+}
+
+.nov-13-div{
+    text-decoration: none;
+    color: #3ff;
+}
+
+.hood-div{
+    text-decoration: none;
+    color: black;
+}
+
+.cryptofy-div{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.crypocoin{
+    display: flex;
+    justify-content: space-between;
+}
+
+.live-div{
+    margin-top: 40px;
+}
+
+.coin-aside-div{
+    padding: 6px;
+    width: 20%;
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: end;
+}
+
+.jessica-div{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: medium;
+    margin: 10px;
+}
+
+.girl{
+    text-decoration: none;
+    color: grey;
+    font-weight: 400;
+    font-size: small;
+    margin: 10px;
+    margin-right: 130px;
+}
+
+.gird{
+    text-decoration: none;
+    color: grey;
+    font-weight: 400;
+    font-size: small;
+    margin: 8px;
+    margin-right: 470px;
+}
+
+.gird-div{
+    text-decoration: none;
+    color: grey;
+    font-weight: 400;
+    font-size: small;
+    margin: 8px;
+    margin-right: 530px;
+}
+
+.gird-drop{
+    text-decoration: none;
+    color: grey;
+    font-weight: 400;
+    font-size: small;
+    margin: 8px;
+    margin-right: 490px;
+}
+
+.ali-express{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;    
+}
+
+.f{
+    text-decoration: none;
+    color:#333;
+    font-size: small;
+}
+
+.h{
+    text-decoration: none;
+    color:#333;
+    font-size: large;
+    font-weight: 700;
+}
+
+.t{
+    margin: 20px 0px 5px 20px;
+}
+
+.y{
+    margin: 2px 0px 0px 20px;
+}
+
+.discover{
+    text-decoration: none;
+    color:#333;
+}
+
+.dics{
+    margin-left: 20px;
+}
+
+.dics-div{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.dics-div{
+    transition: 5s ease;
+}
+
+.dics-div img:hover{
+    transform: scale(1.06);
+}
+
+.brevo{
+    text-decoration: none;
+    color: #3ff;
+}
+
+.follow{
+    margin: 60px 0px 0px 5px;
+    font-size: large;
+    font-weight: 700;
+}
+
+.follow-span{
+    padding: 8px;
+    background-color: black;
+    border-radius: 70px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 110%;
+    box-shadow: 100%;
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.follow-span-div{
+    padding: 8px;
+    background-color: black;
+    border-radius: 70px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 120%;
+    box-shadow: 100%;
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+.code-span-div{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-right: 20px;
+}
+
+.winK{
+    margin-top: 30px;
+}
+
+.jessica{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: medium;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.larson{
+     margin-top: 10px;
+}
+
+.najia{
+    color: grey;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.follow-div{
+    padding: 8px;
+    background-color: black;
+    border-radius: 70px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 80%;
+    box-shadow: 100%;
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.terms{
+    font-size: 13px;
+}
+
+.terms-div{
+    text-decoration: none;
+    color: grey;
+}
+
+.free-div{
+    text-decoration: none;
+    color: #3ff;
+}
+
+.working{
+    text-decoration: none;
+    color: black;
+}
+
+.foot{
+    text-decoration: none;
+    color: #333;
+    font-size: small;
+}
+
+.footer-drop{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+}
+
+.trends{
+    margin-bottom: 30px;
+}
